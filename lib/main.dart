@@ -107,11 +107,11 @@ class Student extends Person {
 
     print("\nMenu:");
     print("1. Add Student");
-    print("2. View All Students");
+    print("2. View Students");
     print("3. Search Student");
     print("4. Delete Student");
     print("5. Exit");
-    print("\Choose  : ");
+    print("\Choose: ");
 
     int menu = int.parse(stdin.readLineSync()!);
     switch (menu) {
